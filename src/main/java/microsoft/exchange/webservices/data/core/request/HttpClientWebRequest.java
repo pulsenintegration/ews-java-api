@@ -125,8 +125,8 @@ public class HttpClientWebRequest extends HttpWebRequest {
         RequestConfig.custom().setAuthenticationEnabled(true).setConnectionRequestTimeout(getTimeout())
             .setConnectTimeout(getTimeout()).setRedirectsEnabled(isAllowAutoRedirect())
             .setSocketTimeout(getTimeout())
-            .setTargetPreferredAuthSchemes(Arrays.asList(AuthSchemes.NTLM, AuthSchemes.BASIC))
-            .setProxyPreferredAuthSchemes(Arrays.asList(AuthSchemes.NTLM, AuthSchemes.BASIC));
+            .setTargetPreferredAuthSchemes(Arrays.asList(AuthSchemes.KERBEROS, AuthSchemes.NTLM, AuthSchemes.BASIC))
+            .setProxyPreferredAuthSchemes(Arrays.asList(AuthSchemes.KERBEROS, AuthSchemes.NTLM, AuthSchemes.BASIC));
 
     CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
 
