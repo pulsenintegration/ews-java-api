@@ -119,7 +119,6 @@ public class HttpClientWebRequest extends HttpWebRequest {
     }
 
     // Build request configuration.
-    // Disable Kerberos in the preferred auth schemes - EWS should usually allow NTLM or Basic auth
     RequestConfig.Builder
         requestConfigBuilder =
         RequestConfig.custom().setAuthenticationEnabled(true).setConnectionRequestTimeout(getTimeout())
