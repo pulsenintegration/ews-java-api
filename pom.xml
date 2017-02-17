@@ -31,7 +31,7 @@
     <groupId>com.microsoft.ews-java-api</groupId>
     <artifactId>ews-java-api</artifactId>
     
-    <version>2.1-SNAPSHOT</version>
+    <version>2.1-PULSEN-SNAPSHOT</version>
 
     <name>Exchange Web Services Java API</name>
     <description>Exchange Web Services (EWS) Java API</description>
@@ -196,21 +196,23 @@
     </ciManagement>
 
     <scm>
-        <url>https://github.com/OfficeDev/ews-java-api</url>
-        <connection>scm:git:ssh://git@github.com:OfficeDev/ews-java-api.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:OfficeDev/ews-java-api.git</developerConnection>
+        <url>https://github.com/pulsenintegration/ews-java-api</url>
+        <connection>scm:git:ssh://git@github.com:pulsenintegration/ews-java-api.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:pulsenintegration/ews-java-api.git</developerConnection>
     </scm>
 
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh-snapshot</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-        </repository>
-    </distributionManagement>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>repo.pi.pulsen.se</id>
+			<name>repo.pi.pulsen.se-snapshots</name>
+			<url>https://repo.pi.pulsen.se/artifactory/libs-snapshots-local</url>
+		</snapshotRepository>
+		<repository>
+			<id>repo.pi.pulsen.se</id>
+			<name>repo.pi.pulsen.se-releases</name>
+			<url>https://repo.pi.pulsen.se/artifactory/libs-releases-local</url>
+		</repository>
+	</distributionManagement>
 
     <dependencies>
         <dependency>
