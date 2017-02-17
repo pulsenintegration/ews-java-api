@@ -29,7 +29,7 @@
     <groupId>com.microsoft.ews-java-api</groupId>
     <artifactId>ews-java-api</artifactId>
     
-    <version>2.1-PULSEN</version>
+    <version>2.2-PULSEN-SNAPSHOT</version>
 
     <name>Exchange Web Services Java API</name>
     <description>Exchange Web Services (EWS) Java API</description>
@@ -197,7 +197,7 @@
         <url>https://github.com/pulsenintegration/ews-java-api</url>
         <connection>scm:git:ssh://git@github.com:/pulsenintegration/ews-java-api.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/pulsenintegration/ews-java-api.git</developerConnection>
-        <tag>v2.1-PULSEN</tag>
+        <tag>HEAD</tag>
     </scm>
 
 	<distributionManagement>
