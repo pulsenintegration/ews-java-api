@@ -199,6 +199,7 @@
         <url>https://github.com/pulsenintegration/ews-java-api</url>
         <connection>scm:git:ssh://git@github.com:/pulsenintegration/ews-java-api.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/pulsenintegration/ews-java-api.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
 	<distributionManagement>
